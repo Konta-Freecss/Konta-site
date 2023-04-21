@@ -10,7 +10,8 @@ paginate = 12
 enableRobotsTXT = true
 
 enableEmoji = true
-  
+ 
+
   
   
 [menu]
@@ -22,6 +23,8 @@ enableEmoji = true
 		
 		
 [params]
+
+  enableTooltips = false
 
   defaultTheme = "auto"
 
@@ -134,7 +137,7 @@ enableEmoji = true
 
       avatarURL = "/images/avatar.jpg"
 	  
-	  avatarLink = "/about/"
+	  url = "/about/"
 
       title = "Konta"
 
