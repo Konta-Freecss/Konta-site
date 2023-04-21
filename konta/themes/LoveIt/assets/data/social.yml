@@ -570,7 +570,7 @@ rootme:
     Src: svg/icons/rootme.svg
 
 # 073: TryHackMe
-TryHackMe:
+tryhackme:
   Weight: 73
   Title: TryHackMe
   Prefix: https://tryhackme.com/p/
