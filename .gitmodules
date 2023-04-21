@@ -1,0 +1,6 @@
+[submodule "konta/konta/themes/LoveIt"]
+	path = konta/konta/themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "konta/themes/LoveIt"]
+	path = konta/themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
