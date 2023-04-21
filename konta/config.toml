@@ -11,15 +11,13 @@ enableRobotsTXT = true
 
 enableEmoji = true
  
-
-  
   
 [menu]
 	[[menu.main]]
 		weight = 1
 		identifier = "ctf-write-ups"
 		name = "CTF Write-ups"
-		url = "/ctf-write-ups/"
+		url = "/about/"
 		
 		
 [params]
@@ -137,7 +135,7 @@ enableEmoji = true
 
       avatarURL = "/images/avatar.jpg"
 	  
-	  url = "/about/"
+	  
 
       title = "Konta"
 
