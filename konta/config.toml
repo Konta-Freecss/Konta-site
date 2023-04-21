@@ -2,3 +2,32 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Konta"
 theme = "LoveIt"
+
+[params]
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Author
+  author = "Konta"
+
+  # Default images for Open Graph and Twitter Cards
+  images = ["images/pp.jpg"]
+  
+  # Enable highlight.js
+  highlight = true
+  
+  # Enable Lightbox
+  lightbox = true
+
+  # Enable smooth scrolling effect
+  smoothScroll = true
+
+  # Enable copy code button
+  copyCode = true
+  
+[menu]
+	[[menu.main]]
+		identifier = "ctf-write-ups"
+		name = "CTF Write-ups"
+		url = "/ctf-write-ups/"
+		weight = 3
