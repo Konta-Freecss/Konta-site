@@ -1,33 +1,469 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Konta"
+title = "Konta's Blog"
 theme = "LoveIt"
+languageCode = "en"
+defaultContentLanguage = "en"
+languageName = "English"
 
-[params]
-  # Favicon
-  favicon = "favicon.ico"
+paginate = 12
 
-  # Author
-  author = "Konta"
+enableRobotsTXT = true
 
-  # Default images for Open Graph and Twitter Cards
-  images = ["images/pp.jpg"]
+enableEmoji = true
   
-  # Enable highlight.js
-  highlight = true
   
-  # Enable Lightbox
-  lightbox = true
-
-  # Enable smooth scrolling effect
-  smoothScroll = true
-
-  # Enable copy code button
-  copyCode = true
   
 [menu]
 	[[menu.main]]
+		weight = 2
 		identifier = "ctf-write-ups"
 		name = "CTF Write-ups"
 		url = "/ctf-write-ups/"
-		weight = 3
+		
+		
+[params]
+
+  defaultTheme = "auto"
+
+  gitRepo = ""
+
+  fingerprint = ""
+
+  dateFormat = ""
+
+  title = ""
+
+  description = ""
+
+  images = [""]
+
+  [params.header]
+
+    desktopMode = "fixed"
+
+    mobileMode = "auto"
+
+    [params.header.title]
+
+      logo = ""
+
+      name = "Konta's Blog"
+
+      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+
+      post = ""
+
+      typeit = false
+
+  [params.footer]
+    enable = true
+
+    custom = ""
+
+    hugo = true
+
+    copyright = true
+
+    author = false
+
+    since = 2022
+
+    icp = ""
+
+    license= ''
+
+  [params.section]
+
+    paginate = 20
+
+    dateFormat = "01-02"
+
+    rss = 10
+
+  [params.list]
+
+    paginate = 20
+
+    dateFormat = "01-02"
+
+    rss = 10
+
+  [params.app]
+
+    title = "LoveIt"
+
+    noFavicon = false
+
+    svgFavicon = ""
+
+    themeColor = "#ffffff"
+
+    iconColor = "#5bbad5"
+
+    tileColor = "#da532c"
+
+  [params.search]
+    enable = true
+
+    type = "algolia"
+
+    contentLength = 4000
+
+    placeholder = ""
+
+    maxResultLength = 10
+
+    snippetLength = 30
+
+    highlightTag = "em"
+
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+
+  [params.home]
+
+    rss = 10
+
+    [params.home.profile]
+      enable = true
+
+      gravatarEmail = ""
+
+      avatarURL = "/images/avatar.jpg"
+
+      title = "Konta"
+
+      subtitle = "Infosec student @ ESD | CTF Player"
+
+      typeit = true
+
+      social = true
+
+      disclaimer = ""
+
+    [params.home.posts]
+      enable = true
+
+      paginate = 6
+
+  [params.social]
+    GitHub = "Konta-Freecss"
+    Linkedin = "lucasb221"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = "KontaFreecss"
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    Discord = ""
+    DiscordInvite = ""
+    Lichess = ""
+    ORCID = ""
+    Pleroma = ""
+    Kaggle = ""
+    MediaWiki= ""
+    Plume = ""
+    HackTheBox = "1110115"
+    RootMe= ""
+	TryHackMe = "Konta"
+    Email = ""
+    RSS = ""
+
+  [params.page]
+
+    hiddenFromHomePage = false
+
+    hiddenFromSearch = false
+
+    twemoji = false
+
+    lightgallery = false
+
+    ruby = true
+
+    fraction = true
+
+    fontawesome = true
+
+    linkToMarkdown = true
+
+    rssFullText = false
+
+    [params.page.toc]
+
+      enable = true
+
+      keepStatic = false
+
+      auto = true
+
+    [params.page.code]
+
+      copy = true
+
+      maxShownLines = 50
+
+    [params.page.math]
+      enable = false
+
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+
+      copyTex = true
+
+      mhchem = true
+
+    [params.page.mapbox]
+
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+
+      navigation = true
+
+      geolocate = true
+
+      scale = true
+
+      fullscreen = true
+
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = true
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = true
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = true
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+
+    [params.page.comment]
+      enable = true
+
+      [params.page.comment.disqus]
+        enable = false
+
+        shortname = ""
+
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+
+      [params.page.comment.valine]
+        enable = true
+        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = "https://leancloud.hugoloveit.com"
+
+        emoji = ""
+
+      [params.page.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+
+        languageCode = ""
+
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+
+      [params.page.comment.commento]
+        enable = false
+
+      [params.page.comment.utterances]
+        enable = false
+
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+
+      [params.page.comment.giscus]
+
+        enable = false
+        repo = ""
+        repoId = ""
+        category = "Announcements"
+        categoryId = ""
+
+        lang = ""
+        mapping = "pathname"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        lazyLoading = false
+        lightTheme = "light"
+        darkTheme = "dark"
+
+    [params.page.library]
+      [params.page.library.css]
+
+      [params.page.library.js]
+
+    [params.page.seo]
+
+      images = []
+
+      [params.page.seo.publisher]
+        name = "xxxx"
+        logoUrl = "/images/avatar.png"
+
+  [params.typeit]
+
+    speed = 100
+
+    cursorSpeed = 1000
+
+    cursorChar = "|"
+
+    duration = -1
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+  [params.seo]
+
+    image = "/images/Apple-Devices-Preview.png"
+
+    thumbnailUrl = "/images/screenshot.png"
+
+  [params.analytics]
+    enable = false
+
+    [params.analytics.google]
+      id = ""
+
+      anonymizeIP = true
+
+    [params.analytics.fathom]
+      id = ""
+
+      server = ""
+
+    [params.analytics.plausible]
+      dataDomain = ""
+
+    [params.analytics.yandexMetrica]
+      id = ""
+
+  [params.cookieconsent]
+    enable = false
+
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+  [params.cdn]
+
+    data = "jsdelivr.yml"
+
+  [params.compatibility]
+
+    polyfill = false
+
+    objectFit = false
