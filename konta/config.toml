@@ -14,10 +14,16 @@ enableEmoji = true
   
 [menu]
 	[[menu.main]]
-		weight = 0
+		weight = 1
 		identifier = "ctf-write-ups"
 		name = "CTF Write-ups"
 		url = "/ctf-write-ups/"
+		
+	[[menu.main]]
+        weight = 2
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
 		
 		
 [params]
@@ -50,7 +56,7 @@ enableEmoji = true
 
       name = "Konta's Blog"
 
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = "<span style='display: inline-block; height: 100%; vertical-align: middle;'></span><img src='/images/logo_png.png' alt='Logo' width='70' style='vertical-align: middle;'>"
 
       post = ""
 
@@ -139,7 +145,7 @@ enableEmoji = true
 
       title = "Konta"
 
-      subtitle = "Infosec student @ ESD | CTF Player"
+      subtitlesubtitle = "Infosec student @ ESD | CTF Player"
 
       typeit = true
 
