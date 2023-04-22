@@ -14,10 +14,10 @@ enableEmoji = true
   
 [menu]
 	[[menu.main]]
-		weight = 1
+		weight = 0
 		identifier = "ctf-write-ups"
 		name = "CTF Write-ups"
-		url = "/about/"
+		url = "/ctf-write-ups/"
 		
 		
 [params]
