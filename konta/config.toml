@@ -56,7 +56,7 @@ enableEmoji = true
 
       name = "Konta's Blog"
 
-      pre = "<span style='display: inline-block; height: 100%; vertical-align: middle;'></span><img src='/images/logo_png.png' alt='Logo' width='70' style='vertical-align: middle;'>"
+      pre = "<span style=' display: inline-block; height: 100%; vertical-align: middle;'></span><img src='/images/logo_png.png' alt='Logo' width='70' style='vertical-align: middle; margin-right: 2%'>"
 
       post = ""
 
@@ -100,8 +100,6 @@ enableEmoji = true
     title = "LoveIt"
 
     noFavicon = false
-
-    svgFavicon = ""
 
     themeColor = "#ffffff"
 
