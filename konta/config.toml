@@ -139,11 +139,9 @@ enableEmoji = true
 
       avatarURL = "/images/avatar.jpg"
 	  
-	  
-
       title = "Konta"
 
-      subtitlesubtitle = "Infosec student @ ESD | CTF Player"
+      subtitle = "Infosec student @ ESD | CTF Player"
 
       typeit = true
 
