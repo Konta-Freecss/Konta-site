@@ -1,9 +1,10 @@
 baseURL = "https://konta-lb.fr/"
 title = "Konta's Blog"
-theme = "LoveIt"
+theme = ["hugo-embed-pdf-shortcode", "LoveIt"]
 languageCode = "en"
 defaultContentLanguage = "en"
 languageName = "English"
+enableInlineShortcodes = true
 
 paginate = 12
 
